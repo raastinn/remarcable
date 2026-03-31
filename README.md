@@ -21,29 +21,15 @@ This is a simple Django web application that allows users to browse, search, and
    pip install django
    ```
 
-3. Apply migrations:
-
-   ```bash
-   python manage.py makemigrations
-   python manage.py migrate
-   ```
-
-4. (Optional) Create a superuser for admin access:
-
-   ```bash
-   python manage.py createsuperuser
-   ```
-
-5. Run the development server:
+3. Run the development server:
 
    ```bash
    python manage.py runserver
    ```
 
-6. Open the app:
+4. Open the app:
 
-   * Main app: http://127.0.0.1:8000/
-   * Admin panel: http://127.0.0.1:8000/admin/
+   * http://127.0.0.1:8000/
 
 ---
 
