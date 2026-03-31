@@ -21,6 +21,13 @@ This is a simple Django web application that allows users to browse, search, and
    pip install django
    ```
 
+3. Migrate and load data
+
+   ```bash
+   python manage.py migrate
+   python manage.py loaddata sample_data.json
+   ```   
+
 3. Run the development server:
 
    ```bash
@@ -50,5 +57,6 @@ This is a simple Django web application that allows users to browse, search, and
 
 ## Uses of AI
 
-* Improve functionality for retrieving products (using "select_related" and "prefetch_related" as opposed to "objects.all") in `views.py`
-* Formatting the `README.md` file
+* General Use: Mix of AI/YouTube to learn Django
+* Specific Use: Improve functionality for retrieving products (using "select_related" and "prefetch_related" as opposed to "objects.all") in `views.py`
+* Specific Use: Formatting the `README.md` file

@@ -1,0 +1,442 @@
+[
+{
+  "model": "browse.category",
+  "pk": 1,
+  "fields": {
+    "name": "tops"
+  }
+},
+{
+  "model": "browse.category",
+  "pk": 2,
+  "fields": {
+    "name": "bottoms"
+  }
+},
+{
+  "model": "browse.category",
+  "pk": 3,
+  "fields": {
+    "name": "outwear"
+  }
+},
+{
+  "model": "browse.category",
+  "pk": 4,
+  "fields": {
+    "name": "footwear"
+  }
+},
+{
+  "model": "browse.category",
+  "pk": 5,
+  "fields": {
+    "name": "accessories"
+  }
+},
+{
+  "model": "browse.tag",
+  "pk": 1,
+  "fields": {
+    "name": "casual"
+  }
+},
+{
+  "model": "browse.tag",
+  "pk": 2,
+  "fields": {
+    "name": "streetwear"
+  }
+},
+{
+  "model": "browse.tag",
+  "pk": 3,
+  "fields": {
+    "name": "formal"
+  }
+},
+{
+  "model": "browse.tag",
+  "pk": 4,
+  "fields": {
+    "name": "athletic"
+  }
+},
+{
+  "model": "browse.tag",
+  "pk": 5,
+  "fields": {
+    "name": "vintage"
+  }
+},
+{
+  "model": "browse.tag",
+  "pk": 6,
+  "fields": {
+    "name": "luxury"
+  }
+},
+{
+  "model": "browse.tag",
+  "pk": 7,
+  "fields": {
+    "name": "sustainable"
+  }
+},
+{
+  "model": "browse.tag",
+  "pk": 8,
+  "fields": {
+    "name": "essentials"
+  }
+},
+{
+  "model": "browse.tag",
+  "pk": 9,
+  "fields": {
+    "name": "basics"
+  }
+},
+{
+  "model": "browse.tag",
+  "pk": 10,
+  "fields": {
+    "name": "everyday"
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 1,
+  "fields": {
+    "description": "Essentials Hoodie",
+    "comment": "Size medium",
+    "price": 120,
+    "category": 1,
+    "created_at": "2026-03-31T19:43:14.128Z",
+    "tags": [
+      2,
+      8,
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 2,
+  "fields": {
+    "description": "Nike Shoes",
+    "comment": "Size 9.5 barely worn",
+    "price": 90,
+    "category": 4,
+    "created_at": "2026-03-31T19:43:35.760Z",
+    "tags": [
+      4,
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 3,
+  "fields": {
+    "description": "Adidas Sambas",
+    "comment": "Size 8",
+    "price": 125,
+    "category": 4,
+    "created_at": "2026-03-31T19:46:56.595Z",
+    "tags": [
+      1,
+      4,
+      8,
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 4,
+  "fields": {
+    "description": "Lululemon Pants",
+    "comment": "Size 30",
+    "price": 145,
+    "category": 2,
+    "created_at": "2026-03-31T19:47:16.673Z",
+    "tags": [
+      1,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 5,
+  "fields": {
+    "description": "The North Face Jacket",
+    "comment": "Size small",
+    "price": 250,
+    "category": 3,
+    "created_at": "2026-03-31T19:47:40.520Z",
+    "tags": [
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 6,
+  "fields": {
+    "description": "Casio Watch",
+    "comment": "One Size",
+    "price": 295,
+    "category": 5,
+    "created_at": "2026-03-31T19:48:13.369Z",
+    "tags": [
+      3,
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 7,
+  "fields": {
+    "description": "Lululemon Shorts",
+    "comment": "Size large",
+    "price": 65,
+    "category": 2,
+    "created_at": "2026-03-31T19:48:40.713Z",
+    "tags": [
+      4,
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 8,
+  "fields": {
+    "description": "Chanel Cologne",
+    "comment": "100 ml",
+    "price": 175,
+    "category": 5,
+    "created_at": "2026-03-31T19:49:05.424Z",
+    "tags": [
+      6,
+      8
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 9,
+  "fields": {
+    "description": "Zara Shirt",
+    "comment": "Size medium",
+    "price": 40,
+    "category": 1,
+    "created_at": "2026-03-31T19:49:25.873Z",
+    "tags": [
+      1,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 10,
+  "fields": {
+    "description": "Vintage Shirt",
+    "comment": "Size large",
+    "price": 35,
+    "category": 1,
+    "created_at": "2026-03-31T19:49:43.055Z",
+    "tags": [
+      2,
+      5,
+      7
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 11,
+  "fields": {
+    "description": "Calvin Klein Jacket",
+    "comment": "Size 44",
+    "price": 180,
+    "category": 3,
+    "created_at": "2026-03-31T19:50:18.554Z",
+    "tags": [
+      3,
+      6,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 12,
+  "fields": {
+    "description": "Under Armour Gym Shirt",
+    "comment": "Size small",
+    "price": 25,
+    "category": 1,
+    "created_at": "2026-03-31T19:50:42.623Z",
+    "tags": [
+      4,
+      8,
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 13,
+  "fields": {
+    "description": "Vintage Carhartt Pants",
+    "comment": "Size 30",
+    "price": 40,
+    "category": 2,
+    "created_at": "2026-03-31T19:51:01.228Z",
+    "tags": [
+      2,
+      5,
+      7,
+      10
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 14,
+  "fields": {
+    "description": "Hiking Boots",
+    "comment": "Size 11.5",
+    "price": 130,
+    "category": 4,
+    "created_at": "2026-03-31T19:51:19.605Z",
+    "tags": [
+      4,
+      9
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 15,
+  "fields": {
+    "description": "Necklace",
+    "comment": "Sterling Silver",
+    "price": 50,
+    "category": 5,
+    "created_at": "2026-03-31T19:51:38.514Z",
+    "tags": [
+      1,
+      9
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 16,
+  "fields": {
+    "description": "Nike Joggers",
+    "comment": "Size large",
+    "price": 45,
+    "category": 2,
+    "created_at": "2026-03-31T19:51:57.633Z",
+    "tags": [
+      1,
+      4,
+      8,
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 17,
+  "fields": {
+    "description": "Lululemon Sweatpants",
+    "comment": "Size medium",
+    "price": 115,
+    "category": 2,
+    "created_at": "2026-03-31T19:52:19.434Z",
+    "tags": [
+      1,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 18,
+  "fields": {
+    "description": "Nike Canada Jersey",
+    "comment": "Size XL",
+    "price": 95,
+    "category": 1,
+    "created_at": "2026-03-31T19:52:38.473Z",
+    "tags": [
+      1,
+      4,
+      9
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 19,
+  "fields": {
+    "description": "On Running Shoes",
+    "comment": "Size 7",
+    "price": 225,
+    "category": 4,
+    "created_at": "2026-03-31T19:53:07.419Z",
+    "tags": [
+      1,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "browse.product",
+  "pk": 20,
+  "fields": {
+    "description": "Michael Hill Ring",
+    "comment": "Size 5.25",
+    "price": 425,
+    "category": 5,
+    "created_at": "2026-03-31T19:53:44.820Z",
+    "tags": [
+      3,
+      6
+    ]
+  }
+}
+]
