@@ -64,6 +64,5 @@ This is a simple Django web application that allows users to browse, search, and
 
 ## Uses of AI
 
-* Used to get a better understanding of Django syntax
-* Improve functionality for retrieving products (using "select_related" and "prefetch_related" as opposed to "objects.all")
+* Improve functionality for retrieving products (using "select_related" and "prefetch_related" as opposed to "objects.all") in `views.py`
 * Formatting the `README.md` file
