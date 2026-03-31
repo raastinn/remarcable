@@ -61,3 +61,9 @@ This is a simple Django web application that allows users to browse, search, and
 
 * Python and Django are installed
 * SQLite is used as the default database
+
+## Uses of AI
+
+* Used to get a better understanding of Django syntax
+* Improve functionality for retrieving products (using "select_related" and "prefetch_related" as opposed to "objects.all")
+* Formatting the `README.md` file
